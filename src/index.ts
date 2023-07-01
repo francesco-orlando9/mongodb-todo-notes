@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 
 import CONFIG from './config/config';
 import userRoutes from './api/v1/routes/user';
+import authRoutes from './api/v1/routes/auth';
 
 const server = fastify({ logger: true });
 
@@ -27,4 +28,5 @@ server.get('/', async (request, reply) => {
     })
 });
 
-server.register(userRoutes, { prefix: '/user'});
+server.register(userRoutes, { prefix: 'api/v1/users' });
+server.register(authRoutes, { prefix: 'api/v1/auth' });

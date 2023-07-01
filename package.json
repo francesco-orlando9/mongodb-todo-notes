@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/francesco-orlando9/mongo-todo-notes#readme",
   "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "deepmerge": "^4.3.1",
@@ -27,6 +28,7 @@
     "mongoose": "^7.3.1"
   },
   "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.2",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^20.3.3",
     "nodemon": "^2.0.22",
