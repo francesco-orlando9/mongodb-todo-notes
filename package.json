@@ -1,0 +1,36 @@
+{
+  "name": "mongo-todo-notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "NODE_ENV=dev nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francesco-orlando9/mongo-todo-notes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francesco-orlando9/mongo-todo-notes/issues"
+  },
+  "homepage": "https://github.com/francesco-orlando9/mongo-todo-notes#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "deepmerge": "^4.3.1",
+    "fastify": "^4.19.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.3.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
